@@ -1,0 +1,3 @@
+[submodule "MonoWasm"]
+	path = MonoWasm
+	url = https://github.com/zwcloud/MonoWasm.git
