@@ -45,4 +45,4 @@ Open the solution file in VS2017, rebuild project *MonoWasmDemo*, see error *Unh
 1>   at Driver.Run(String[] args)
 1>   at Driver.Main(String[] args)
 ========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
-```text
+```
