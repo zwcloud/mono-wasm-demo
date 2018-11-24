@@ -15,8 +15,16 @@
 
   <ItemGroup>
     <Compile Remove="MonoWasmSdk\**" />
+    <Compile Remove="MonoWasm\**" />
     <EmbeddedResource Remove="MonoWasmSdk\**" />
+    <EmbeddedResource Remove="MonoWasm\**" />
     <None Remove="MonoWasmSdk\**" />
+    <None Remove="MonoWasm\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove=".gitmodules" />
   </ItemGroup>
 
   <ItemGroup>
